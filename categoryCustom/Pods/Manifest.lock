@@ -1,0 +1,16 @@
+PODS:
+  - TTGTagCollectionView (1.11.1)
+
+DEPENDENCIES:
+  - TTGTagCollectionView
+
+SPEC REPOS:
+  trunk:
+    - TTGTagCollectionView
+
+SPEC CHECKSUMS:
+  TTGTagCollectionView: 86fcbfa6a7493c9e860b01c2e693cffc8acf6de1
+
+PODFILE CHECKSUM: 0113b0429ccc1e4c7bcb291cff961619ba8280c9
+
+COCOAPODS: 1.9.1
