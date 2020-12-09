@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         print(myInstance.someProperty)    
         myInstance.someMethod()
         
-        // 함수지향형
+        // 함수지향형이다
         methodInstance.execute(tasks: [methodInstance.doAnotherThing, methodInstance.doSomething])
         
     }
