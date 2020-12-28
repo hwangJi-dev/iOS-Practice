@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33851CC3259A6CB6005BCFFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33851CC2259A6CB6005BCFFD /* AppDelegate.swift */; };
+		33851CC5259A6CB6005BCFFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33851CC4259A6CB6005BCFFD /* SceneDelegate.swift */; };
+		33851CC7259A6CB6005BCFFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33851CC6259A6CB6005BCFFD /* ViewController.swift */; };
+		33851CCA259A6CB6005BCFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33851CC8259A6CB6005BCFFD /* Main.storyboard */; };
+		33851CCC259A6CB8005BCFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33851CCB259A6CB8005BCFFD /* Assets.xcassets */; };
+		33851CCF259A6CB8005BCFFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33851CCD259A6CB8005BCFFD /* LaunchScreen.storyboard */; };
+		349561C57C6F5854B2D44BD5 /* Pods_KakaoMessagePractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7126E3CA27DA2D5330B67790 /* Pods_KakaoMessagePractice.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33851CBF259A6CB6005BCFFD /* KakaoMessagePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoMessagePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33851CC2259A6CB6005BCFFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33851CC4259A6CB6005BCFFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33851CC6259A6CB6005BCFFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33851CC9259A6CB6005BCFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33851CCB259A6CB8005BCFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33851CCE259A6CB8005BCFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33851CD0259A6CB8005BCFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7126E3CA27DA2D5330B67790 /* Pods_KakaoMessagePractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakaoMessagePractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B017B657EB76AE79E04075E4 /* Pods-KakaoMessagePractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoMessagePractice.debug.xcconfig"; path = "Target Support Files/Pods-KakaoMessagePractice/Pods-KakaoMessagePractice.debug.xcconfig"; sourceTree = "<group>"; };
+		CD23A9D6B53BE860A0002821 /* Pods-KakaoMessagePractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoMessagePractice.release.xcconfig"; path = "Target Support Files/Pods-KakaoMessagePractice/Pods-KakaoMessagePractice.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33851CBC259A6CB6005BCFFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349561C57C6F5854B2D44BD5 /* Pods_KakaoMessagePractice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DACDC7C0CF7584F1743036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7126E3CA27DA2D5330B67790 /* Pods_KakaoMessagePractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33851CB6259A6CB6005BCFFD = {
+			isa = PBXGroup;
+			children = (
+				33851CC1259A6CB6005BCFFD /* KakaoMessagePractice */,
+				33851CC0259A6CB6005BCFFD /* Products */,
+				B958A610FDF6A3AC8018AD7E /* Pods */,
+				05DACDC7C0CF7584F1743036 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33851CC0259A6CB6005BCFFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33851CBF259A6CB6005BCFFD /* KakaoMessagePractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33851CC1259A6CB6005BCFFD /* KakaoMessagePractice */ = {
+			isa = PBXGroup;
+			children = (
+				33851CC2259A6CB6005BCFFD /* AppDelegate.swift */,
+				33851CC4259A6CB6005BCFFD /* SceneDelegate.swift */,
+				33851CC6259A6CB6005BCFFD /* ViewController.swift */,
+				33851CC8259A6CB6005BCFFD /* Main.storyboard */,
+				33851CCB259A6CB8005BCFFD /* Assets.xcassets */,
+				33851CCD259A6CB8005BCFFD /* LaunchScreen.storyboard */,
+				33851CD0259A6CB8005BCFFD /* Info.plist */,
+			);
+			path = KakaoMessagePractice;
+			sourceTree = "<group>";
+		};
+		B958A610FDF6A3AC8018AD7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B017B657EB76AE79E04075E4 /* Pods-KakaoMessagePractice.debug.xcconfig */,
+				CD23A9D6B53BE860A0002821 /* Pods-KakaoMessagePractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33851CBE259A6CB6005BCFFD /* KakaoMessagePractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33851CD3259A6CB8005BCFFD /* Build configuration list for PBXNativeTarget "KakaoMessagePractice" */;
+			buildPhases = (
+				E9F6D39F2E4C6670E90293AA /* [CP] Check Pods Manifest.lock */,
+				33851CBB259A6CB6005BCFFD /* Sources */,
+				33851CBC259A6CB6005BCFFD /* Frameworks */,
+				33851CBD259A6CB6005BCFFD /* Resources */,
+				7A3492B8C770347992D387BA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KakaoMessagePractice;
+			productName = KakaoMessagePractice;
+			productReference = 33851CBF259A6CB6005BCFFD /* KakaoMessagePractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33851CB7259A6CB6005BCFFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					33851CBE259A6CB6005BCFFD = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 33851CBA259A6CB6005BCFFD /* Build configuration list for PBXProject "KakaoMessagePractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33851CB6259A6CB6005BCFFD;
+			productRefGroup = 33851CC0259A6CB6005BCFFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33851CBE259A6CB6005BCFFD /* KakaoMessagePractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33851CBD259A6CB6005BCFFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33851CCF259A6CB8005BCFFD /* LaunchScreen.storyboard in Resources */,
+				33851CCC259A6CB8005BCFFD /* Assets.xcassets in Resources */,
+				33851CCA259A6CB6005BCFFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A3492B8C770347992D387BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoMessagePractice/Pods-KakaoMessagePractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoMessagePractice/Pods-KakaoMessagePractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KakaoMessagePractice/Pods-KakaoMessagePractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9F6D39F2E4C6670E90293AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KakaoMessagePractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33851CBB259A6CB6005BCFFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33851CC7259A6CB6005BCFFD /* ViewController.swift in Sources */,
+				33851CC3259A6CB6005BCFFD /* AppDelegate.swift in Sources */,
+				33851CC5259A6CB6005BCFFD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33851CC8259A6CB6005BCFFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33851CC9259A6CB6005BCFFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33851CCD259A6CB8005BCFFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33851CCE259A6CB8005BCFFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33851CD1259A6CB8005BCFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33851CD2259A6CB8005BCFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33851CD4259A6CB8005BCFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B017B657EB76AE79E04075E4 /* Pods-KakaoMessagePractice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZS26WP93H;
+				INFOPLIST_FILE = KakaoMessagePractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Cherish.KakaoMessagePractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33851CD5259A6CB8005BCFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD23A9D6B53BE860A0002821 /* Pods-KakaoMessagePractice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZS26WP93H;
+				INFOPLIST_FILE = KakaoMessagePractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Cherish.KakaoMessagePractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33851CBA259A6CB6005BCFFD /* Build configuration list for PBXProject "KakaoMessagePractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33851CD1259A6CB8005BCFFD /* Debug */,
+				33851CD2259A6CB8005BCFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33851CD3259A6CB8005BCFFD /* Build configuration list for PBXNativeTarget "KakaoMessagePractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33851CD4259A6CB8005BCFFD /* Debug */,
+				33851CD5259A6CB8005BCFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33851CB7259A6CB6005BCFFD /* Project object */;
+}
