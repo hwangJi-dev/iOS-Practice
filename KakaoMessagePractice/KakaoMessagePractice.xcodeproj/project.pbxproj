@@ -13,6 +13,7 @@
 		33851CCA259A6CB6005BCFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33851CC8259A6CB6005BCFFD /* Main.storyboard */; };
 		33851CCC259A6CB8005BCFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33851CCB259A6CB8005BCFFD /* Assets.xcassets */; };
 		33851CCF259A6CB8005BCFFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33851CCD259A6CB8005BCFFD /* LaunchScreen.storyboard */; };
+		33A8C8F1259B910B0027476E /* NextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A8C8F0259B910B0027476E /* NextVC.swift */; };
 		349561C57C6F5854B2D44BD5 /* Pods_KakaoMessagePractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7126E3CA27DA2D5330B67790 /* Pods_KakaoMessagePractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		33851CCB259A6CB8005BCFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33851CCE259A6CB8005BCFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33851CD0259A6CB8005BCFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A8C8F0259B910B0027476E /* NextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextVC.swift; sourceTree = "<group>"; };
 		7126E3CA27DA2D5330B67790 /* Pods_KakaoMessagePractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakaoMessagePractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B017B657EB76AE79E04075E4 /* Pods-KakaoMessagePractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoMessagePractice.debug.xcconfig"; path = "Target Support Files/Pods-KakaoMessagePractice/Pods-KakaoMessagePractice.debug.xcconfig"; sourceTree = "<group>"; };
 		CD23A9D6B53BE860A0002821 /* Pods-KakaoMessagePractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoMessagePractice.release.xcconfig"; path = "Target Support Files/Pods-KakaoMessagePractice/Pods-KakaoMessagePractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				33851CCB259A6CB8005BCFFD /* Assets.xcassets */,
 				33851CCD259A6CB8005BCFFD /* LaunchScreen.storyboard */,
 				33851CD0259A6CB8005BCFFD /* Info.plist */,
+				33A8C8F0259B910B0027476E /* NextVC.swift */,
 			);
 			path = KakaoMessagePractice;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				33851CC7259A6CB6005BCFFD /* ViewController.swift in Sources */,
 				33851CC3259A6CB6005BCFFD /* AppDelegate.swift in Sources */,
 				33851CC5259A6CB6005BCFFD /* SceneDelegate.swift in Sources */,
+				33A8C8F1259B910B0027476E /* NextVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     var animationProgressWhenInterrupted:CGFloat = 0
     
     
-    override func viewDidLoad() {
+    override func viewDidLoad() { 
         super.viewDidLoad()
         setupCard()
     }
