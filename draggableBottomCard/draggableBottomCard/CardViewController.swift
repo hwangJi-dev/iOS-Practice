@@ -13,7 +13,7 @@ class CardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        handleArea.layer.cornerRadius = 20
+        handleArea.layer.cornerRadius = 21
         handleArea.clipsToBounds = true
         handleArea.layer.maskedCorners = [.layerMaxXMinYCorner , .layerMinXMinYCorner]
 
