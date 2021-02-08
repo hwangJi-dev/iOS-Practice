@@ -14,10 +14,6 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         super.viewDidLoad()
     }
     
-    func pressesEnded(_ presses : Set<UIPress>, with: UIPressesEvent) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
     func showSendMailErrorAlert() {
         let sendMailErrorAlert = UIAlertController(title: "메일을 전송 실패", message: "아이폰 이메일 설정을 확인하고 다시 시도해주세요.", preferredStyle: .alert)
         let confirmAction = UIAlertAction(title: "확인", style: .default) {
