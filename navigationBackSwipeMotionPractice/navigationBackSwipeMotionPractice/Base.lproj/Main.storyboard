@@ -18,10 +18,13 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g99-MO-22j">
                                 <rect key="frame" x="136" y="433" width="142" height="84"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="84" id="fCP-Zj-dVF"/>
                                 </constraints>
-                                <state key="normal" title="다음 뷰로 이동하는 버튼"/>
+                                <state key="normal" title="다음 뷰로 이동하는 버튼">
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="KAu-g5-aRB" kind="push" id="0vT-iU-6JG"/>
                                 </connections>
