@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         
         myTextfield.background = UIImage(named: "letter")
         myTextfield.layer.borderColor = .none
-        
         myTextfield.layer.borderWidth = 0
     }
 
