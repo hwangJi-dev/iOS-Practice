@@ -17,16 +17,16 @@ class ViewController: UIViewController {
 
     @IBAction func touchUpToLinkToBlog(_ sender: UIButton) {
         
-        let url = NSURL(string: "https://borabong.tistory.com/")
-        let safari: SFSafariViewController = SFSafariViewController(url: url as! URL)
-        self.present(safari, animated: true, completion: nil)
+        let blogUrl = NSURL(string: "https://borabong.tistory.com/")
+        let blogSafariView: SFSafariViewController = SFSafariViewController(url: blogUrl as! URL)
+        self.present(blogSafariView, animated: true, completion: nil)
     }
     
     @IBAction func touchUpToLinkToGithub(_ sender: UIButton) {
         
-        let url = NSURL(string: "https://github.com/hwangJi-dev")
-        let safari: SFSafariViewController = SFSafariViewController(url: url as! URL)
-        self.present(safari, animated: true, completion: nil)
+        let githubUrl = NSURL(string: "https://github.com/hwangJi-dev")
+        let githubSafariView: SFSafariViewController = SFSafariViewController(url: githubUrl as! URL)
+        self.present(githubSafariView, animated: true, completion: nil)
     }
 }
 
