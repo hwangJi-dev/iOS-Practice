@@ -41,7 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="103.79464285714285"/>
+            <point key="canvasLocation" x="1006" y="96"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hWw-zO-wYj">
@@ -74,7 +74,7 @@ Back버튼을 누르지 않아도 뒤로 갈 수 있어요!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kqd-CH-Aa3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1821.7391304347827" y="119.86607142857142"/>
+            <point key="canvasLocation" x="1838" y="96"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cLx-lS-iuV">
@@ -92,7 +92,7 @@ Back버튼을 누르지 않아도 뒤로 갈 수 있어요!</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O2W-f9-MgV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="103.79464285714285"/>
+            <point key="canvasLocation" x="145" y="96"/>
         </scene>
     </scenes>
     <resources>
