@@ -1,0 +1,6 @@
+framework module Pods_graphPractice {
+  umbrella header "Pods-graphPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}

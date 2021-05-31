@@ -1,0 +1,16 @@
+PODS:
+  - UINavigationBar-Transparent (1.4)
+
+DEPENDENCIES:
+  - UINavigationBar-Transparent
+
+SPEC REPOS:
+  trunk:
+    - UINavigationBar-Transparent
+
+SPEC CHECKSUMS:
+  UINavigationBar-Transparent: 7cf6ed1df7ce9b7499331963cc1182734dc1efa6
+
+PODFILE CHECKSUM: da39d719f4957cf71bb196b6c974e6e590bca24f
+
+COCOAPODS: 1.9.1
