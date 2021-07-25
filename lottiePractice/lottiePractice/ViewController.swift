@@ -42,6 +42,5 @@ class ViewController: UIViewController {
             lottieView.addSubview(lottieAnimationView)
         }
 
-
 }
 
