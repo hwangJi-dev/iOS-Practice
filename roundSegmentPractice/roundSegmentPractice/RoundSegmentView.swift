@@ -66,13 +66,17 @@ class RoundSegmentView: UIView {
         for buttonTitle in buttonTitles {
             let button = UIButton(type: .system)
             button.setTitle(buttonTitle, for: .normal)
+            button.setTitleColor(textColor, for: .normal)
+            button.addTarget(self, action: #selector(buttonTapped(button:)), for: .touchUpInside)
             buttons.append(button)
         }
+        buttons[0].setTitleColor(selectorTextColor, for: .normal)
         
         let selectorWidth = Int(frame.width) / buttonTitles.count
+        let selectorHeight = Int(frame.height - 8)
         
-        selector = UIView(frame: CGRect(x: 4, y: 4, width: selectorWidth - 4, height: Int(frame.height - 4)))
-        selector.layer.cornerRadius = frame.height / 2
+        selector = UIView(frame: CGRect(x: 4, y: 4, width: selectorWidth - 4, height: selectorHeight))
+        selector.layer.cornerRadius = CGFloat(selectorHeight / 2)
         selector.backgroundColor = selectorColor
         addSubview(selector)
         
@@ -93,4 +97,21 @@ class RoundSegmentView: UIView {
         layer.cornerRadius = frame.height / 2
     }
     
+    @objc func buttonTapped(button: UIButton) {
+        for (buttonIndex, btn) in buttons.enumerated() {
+            btn.setTitleColor(textColor, for: .normal)
+            
+            if btn == button {
+                let selectorStartPosition = frame.width / CGFloat(buttons.count) * CGFloat(buttonIndex)
+                UIView.animate(withDuration: 0.3, animations: {
+                    if buttonIndex == 0 {
+                        self.selector.frame.origin.x = 4
+                    }
+                    self.selector.frame.origin.x = selectorStartPosition
+                })
+                
+                btn.setTitleColor(selectorTextColor, for: .normal)
+            }
+        }
+    }
 }

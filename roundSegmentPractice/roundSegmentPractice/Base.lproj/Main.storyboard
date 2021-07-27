@@ -19,7 +19,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zFq-Vu-vPw" customClass="RoundSegmentView" customModule="roundSegmentPractice" customModuleProvider="target">
                                 <rect key="frame" x="94.5" y="294" width="225" height="51"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.218690514" green="0.1502340965" blue="0.0042509735600000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="zFq-Vu-vPw" secondAttribute="height" multiplier="225:51" id="G6C-eL-0w0"/>
                                     <constraint firstAttribute="height" constant="51" id="u7Z-Lv-lco"/>
@@ -29,7 +29,7 @@
                                         <real key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="1" green="0.83137254900000002" blue="0.019438307969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" red="1" green="0.92549019607843142" blue="0.72941176470588232" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="commaSeparatedButtonTitles" value="카드서랍,칭찬랭킹"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="textColor">
