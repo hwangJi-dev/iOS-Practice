@@ -105,7 +105,7 @@ class RoundSegmentView: UIView {
                 let selectorStartPosition = frame.width / CGFloat(buttons.count) * CGFloat(buttonIndex)
                 UIView.animate(withDuration: 0.3, animations: {
                     if buttonIndex == 0 {
-                        self.selector.frame.origin.x = 4
+                        self.selector.frame.origin.x = 8
                     }
                     self.selector.frame.origin.x = selectorStartPosition
                 })
