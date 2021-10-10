@@ -7,6 +7,7 @@
 		<string>youtubemusic</string>
 		<string>youtubemusic://watch?list=</string>
 		<string>Meloniphone</string>
+		<string>instagram</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
