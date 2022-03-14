@@ -36,17 +36,15 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
             compseVC.setMessageBody("Message Content", isHTML: false)
             
             self.present(compseVC, animated: true, completion: nil)
-            
         }
         else {
             self.showSendMailErrorAlert()
         }
-        
     }
     
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        print(error)
         controller.dismiss(animated: true, completion: nil)
     }
-    
 }
 
