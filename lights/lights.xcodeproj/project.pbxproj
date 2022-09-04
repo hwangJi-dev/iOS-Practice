@@ -1,0 +1,167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A35C2A282A56890044A1F3 /* lights.metal in Sources */ = {isa = PBXBuildFile; fileRef = 33A35C29282A56890044A1F3 /* lights.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33A35C26282A56890044A1F3 /* lights.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = lights.metallib; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A35C29282A56890044A1F3 /* lights.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = lights.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		33A35C1F282A56880044A1F3 = {
+			isa = PBXGroup;
+			children = (
+				33A35C28282A56890044A1F3 /* lights */,
+				33A35C27282A56890044A1F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33A35C27282A56890044A1F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A35C26282A56890044A1F3 /* lights.metallib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A35C28282A56890044A1F3 /* lights */ = {
+			isa = PBXGroup;
+			children = (
+				33A35C29282A56890044A1F3 /* lights.metal */,
+			);
+			path = lights;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A35C25282A56890044A1F3 /* lights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A35C2D282A56890044A1F3 /* Build configuration list for PBXNativeTarget "lights" */;
+			buildPhases = (
+				33A35C24282A56890044A1F3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lights;
+			productName = lights;
+			productReference = 33A35C26282A56890044A1F3 /* lights.metallib */;
+			productType = "com.apple.product-type.metal-library";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A35C20282A56890044A1F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					33A35C25282A56890044A1F3 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 33A35C23282A56890044A1F3 /* Build configuration list for PBXProject "lights" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A35C1F282A56880044A1F3;
+			productRefGroup = 33A35C27282A56890044A1F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A35C25282A56890044A1F3 /* lights */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A35C24282A56890044A1F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A35C2A282A56890044A1F3 /* lights.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33A35C2B282A56890044A1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33A35C2C282A56890044A1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		33A35C2E282A56890044A1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33A35C2F282A56890044A1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A35C23282A56890044A1F3 /* Build configuration list for PBXProject "lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A35C2B282A56890044A1F3 /* Debug */,
+				33A35C2C282A56890044A1F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A35C2D282A56890044A1F3 /* Build configuration list for PBXNativeTarget "lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A35C2E282A56890044A1F3 /* Debug */,
+				33A35C2F282A56890044A1F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A35C20282A56890044A1F3 /* Project object */;
+}
